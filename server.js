@@ -5,7 +5,7 @@ const app = express()
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.set('view engine', 'ejs');
-app.use("/source",express.static(__dirname + "/source"));
+app.use(express.static(__dirname + '/public'));
 
 
 app.get("/", (req, res, next) => {
