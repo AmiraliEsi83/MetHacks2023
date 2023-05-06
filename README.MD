@@ -1,13 +1,13 @@
 
 # MetHacks2023 Project
 
-This is the project we are working on for MetHacks2023 hackathon. Right now we have no name for it.
+This is the project we are working on for MetHacks2023 hackathon. The name of our project is MecBot.
 
 
 
 # MetHacks2023 Project
 
-This is the project we are working on for MetHacks2023 hackathon. Right now we have no name for it.
+This is the project we are working on for MetHacks2023 hackathon. The name of our project is MecBot.
 
 
 
