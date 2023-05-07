@@ -169,13 +169,14 @@ async function askQuestionAPIcall() {
             </div>
           </div>
         </div>
+        <a href="#id2" class="down-arrow"></a>
       </section>
       <!-- Section: Design Block -->
     </div>
   </div>
 </section>
 
-<section
+<section id="id2"
   class=" grid grid-cols-3 grid-flow-row items-center bg-[#EDF1D6] absolute container h-screen min-w-full right-0 left-0 pt-20"
 >
 
@@ -278,4 +279,39 @@ async function askQuestionAPIcall() {
   body {
 background-color: #EDF1D6;
   }
+  .down-arrow {
+  position: absolute;
+  top: calc(100vh - 80px);
+  left: calc(50% - 14px);
+  width: 0;
+ 
+  
+  border-radius: 2px;
+  animation: jumpInfinite 1.5s infinite;
+}
+
+.down-arrow:after {
+  content: " ";
+  position: absolute;
+  top: 12px;
+  left: -10px;
+  width: 16px;
+  height: 16px;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  border-radius: 4px;
+  transform: rotateZ(45deg);
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
 </style>
